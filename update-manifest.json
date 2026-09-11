@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "channel": "stable",
+  "version": "1.1.0",
+  "installerUrl": "https://github.com/0bob0bob0/Organizer-Releases/releases/download/v1.1.0/Organizer-Setup-1.1.0.exe",
+  "sha256": "81900CF6A5811F380FD2761B1A414CCEF58CA992E9051023DB2709738D7B3C75",
+  "databaseSchema": 7,
+  "syncProtocol": 1,
+  "minimumUpdaterVersion": "1.1.0",
+  "releaseNotes": [
+    "Première version stable d'Organizer pour Windows x64."
+  ]
+}
