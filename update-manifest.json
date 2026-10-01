@@ -1,13 +1,17 @@
 {
   "manifestVersion": 1,
   "channel": "stable",
-  "version": "1.1.0",
-  "installerUrl": "https://github.com/0bob0bob0/Organizer-Releases/releases/download/v1.1.0/Organizer-Setup-1.1.0.exe",
-  "sha256": "81900CF6A5811F380FD2761B1A414CCEF58CA992E9051023DB2709738D7B3C75",
-  "databaseSchema": 7,
-  "syncProtocol": 1,
+  "version": "1.2.0",
+  "installerUrl": "https://github.com/0bob0bob0/Organizer-Releases/releases/download/v1.2.0/Organizer-Setup-1.2.0.exe",
+  "sha256": "7B9CCDBD6F40D1635B264E986AC9B4BF783445DC6DFED44549140A7390670F36",
+  "databaseSchema": 10,
+  "syncProtocol": 4,
   "minimumUpdaterVersion": "1.1.0",
   "releaseNotes": [
-    "Première version stable d'Organizer pour Windows x64."
+    "Organizer 1.2.0 finale pour Windows x64, validée sur PC et HP.",
+    "Hiérarchie des tâches, projets favoris, multisélection globale, recherche et filtres combinables.",
+    "Vues Semaine/Mois, Urgente et En attente, sidebar Auto/Peek et mode Compact en lecture seule.",
+    "SQLite 10 et Sync Protocol 4 : nouveau groupe P4 requis, anciens groupes non convertis.",
+    "Promotion sans changement fonctionnel de la RC validée ; mise en service finale des profils et du relais réservée à 1.2E."
   ]
 }
