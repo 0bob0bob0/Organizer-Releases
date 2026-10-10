@@ -1,17 +1,20 @@
 {
   "manifestVersion": 1,
   "channel": "stable",
-  "version": "1.2.0",
-  "installerUrl": "https://github.com/0bob0bob0/Organizer-Releases/releases/download/v1.2.0/Organizer-Setup-1.2.0.exe",
-  "sha256": "7B9CCDBD6F40D1635B264E986AC9B4BF783445DC6DFED44549140A7390670F36",
+  "version": "1.2.1",
+  "installerUrl": "https://github.com/0bob0bob0/Organizer-Releases/releases/download/v1.2.1/Organizer-Setup-1.2.1.exe",
+  "sha256": "2E101910131D7032C4889DF9AE2227C0254BD0D2378A60C23625A64A4FE90FD2",
   "databaseSchema": 10,
   "syncProtocol": 4,
   "minimumUpdaterVersion": "1.1.0",
   "releaseNotes": [
-    "Organizer 1.2.0 finale pour Windows x64, validée sur PC et HP.",
-    "Hiérarchie des tâches, projets favoris, multisélection globale, recherche et filtres combinables.",
-    "Vues Semaine/Mois, Urgente et En attente, sidebar Auto/Peek et mode Compact en lecture seule.",
-    "SQLite 10 et Sync Protocol 4 : nouveau groupe P4 requis, anciens groupes non convertis.",
-    "Promotion sans changement fonctionnel de la RC validée ; mise en service finale des profils et du relais réservée à 1.2E."
+    "Navigation Tâches clarifiée : En retard dispose de sa vue globale et Aujourd’hui contient uniquement les tâches du jour. Les panoramas des projets et branches sont conservés.",
+    "La capture rapide suit la page ouverte ; une simple sélection de tâche ne change plus sa destination.",
+    "Classer distingue explicitement A→Z, Z→A et le retour à l’ordre canonique.",
+    "Déplacement par glisser-déposer sur les cartes, en sélection simple ou multiple, avec aperçu, confirmation, refus explicites et Annuler. Le feedback reste stable sur toute la carte.",
+    "L’enregistrement du Détail rend la main après la persistance locale ; les notifications secondaires de protection sont suivies séparément.",
+    "Bascule Normal ↔ Compact fluide, bouton Compact entièrement visible et libellé Normal en mode Compact.",
+    "DB10 / Sync4 inchangés : conserver les profils et le relais Organizer Sync - P4 existants.",
+    "Les installations manuelles 1.2.0 peuvent nécessiter la confirmation « Continuer sans rollback » si leur Setup manque dans Updates/Installed."
   ]
 }
